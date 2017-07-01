@@ -30,6 +30,6 @@
 	 	<property name="suffix" value=".jsp" />
 	 </bean>
 	 
-	 <!-- 4.扫描web相关的bean -->
+	 <!-- 4.扫描web相关的bean --><!-- 这里扫描就是BookController.java -->
 	 <context:component-scan base-package="com.soecode.lyf.web" />
 </beans>
